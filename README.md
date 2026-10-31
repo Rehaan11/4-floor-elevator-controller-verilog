@@ -92,20 +92,6 @@ The XDC defines a 100 MHz clock (10 ns period), matching the Basys 3 onboard clo
 
 **Hardware note:** Switches remain asserted while physically ON. A switch left ON may repeatedly request that floor. For a more user-friendly demonstration, consider adding edge detection or using debounced pushbuttons.
 
-## Upload this project to GitHub
-
-1. Sign in at [GitHub](https://github.com/).
-2. Click **+ → New repository**.
-3. Name it `4-floor-elevator-controller-verilog`.
-4. Description: `Four-floor elevator controller in Verilog HDL with FSM, request scheduling, Vivado testbench, and Basys 3 constraints.`
-5. Choose **Public** if you want to share it on your resume. Do not upload private or confidential files.
-6. Click **Create repository**.
-7. On the repository page, choose **Add file → Upload files**.
-8. Upload `elevator_controller.v`, `tb_elevator_controller.v`, `Basys-3-Master.xdc`, and `README.md`.
-9. Use a commit message such as `Add elevator controller RTL, testbench, constraints, and README`.
-10. Click **Commit changes**.
-11. Copy the repository URL from your browser and add it to the Projects section of your resume.
-
 ## Future improvements
 
 - Add debounced, edge-detected floor-button inputs.
